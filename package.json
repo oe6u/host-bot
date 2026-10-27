@@ -1,0 +1,20 @@
+{
+  "name": "7amohost-bot",
+  "version": "7.0.0",
+  "private": true,
+  "description": "7amoHost Bot Discord file uploader",
+  "main": "7amohost.js",
+  "license": "UNLICENSED",
+  "author": "TC Team - 7amo",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node 7amohost.js",
+    "test": "node 7amohost.js --verify"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2"
+  }
+}
